@@ -21,6 +21,6 @@ const data = fs.readFile("./contact.txt", "utf-8", (res, result) => {
   console.log(result);
 });
 
-fs.mkdirSync("my-doc/a/b", { recursive: true });
+fs.mkdirSync("my-doc/a/b", { recursive: true }); 
 
 console.log(data);
